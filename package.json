@@ -24,11 +24,6 @@
     "./pyodide.js": "./pyodide.js",
     "./package.json": "./package.json"
   },
-  "files": [
-    "pyodide*",
-    "repodata.json",
-    "distutils.tar"
-  ],
   "dependencies": {
   }
 }
