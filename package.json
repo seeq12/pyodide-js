@@ -1,0 +1,34 @@
+{
+  "name": "pyodide-js",
+  "version": "0.21.0-alpha.2",
+  "description": "The Pyodide JavaScript package",
+  "keywords": [
+    "python",
+    "webassembly"
+  ],
+  "homepage": "https://github.com/seeq12/pyodide-js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seeq12/pyodide-js"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+  },
+  "main": "pyodide.js",
+  "exports": {
+    ".": {
+      "require": "./pyodide.js",
+      "import": "./pyodide.mjs"
+    },
+    "./pyodide.mjs": "./pyodide.mjs",
+    "./pyodide.js": "./pyodide.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "pyodide*",
+    "repodata.json",
+    "distutils.tar"
+  ],
+  "dependencies": {
+  }
+}
