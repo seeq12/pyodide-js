@@ -23,5 +23,6 @@ These are the Python Packages included, with notes regarding why they are includ
 |pyyaml				| 6		| YAML parser and emitter for Python													| bokeh depends on it				| 
 |setuptools			| 60.3.1| Easily download, build, install, upgrade, and uninstall Python packages				| Used by other libraries			| 
 |six				| 1.16.0| Python 2 and 3 compatibility utilities												| Used by other libraries			| 
+|tenacity			| 8.0.1 | Retry code until it succeeds				                                            | plotly depends on it  			| 
 |traits				| 6.3.2	| Observable typed attributes for Python classes										| May be used by other libraries	| 
 |typing-extensions	| 4.0.1	| Backported and Experimental Type Hints for Python 3.6+								| bokeh depends on it				| 
