@@ -1,6 +1,8 @@
-This repository is a fork of the [Pyodide Javascript Package](https://www.npmjs.com/package/pyodide). Our `CRAB` project pulls in this as a `node_modules` dependency on the `webserver` project. 
+This repository is a fork of the [Pyodide Javascript Package](https://www.npmjs.com/package/pyodide). 
 
-We need this fork for one simple reason: we need to control which Python packages (wheels) are included in the `pyodide` distribution we use for the Python Visualizations Add-on. The original package on `npm` includes a lot of additional packages we do not have a use for and need to prevent from being accessed at runtime, so in this our own package we remove these unnecessary packages. We also need to include an additional package (`plotly`) that is not included in the original `pyodide` distribution.
+Our Seeq application project pulls this in as a `node_modules` dependency. We need this fork for a simple reason: we want to have strict control over which Python packages (wheels) are included in the `pyodide` distribution we use at runtime. 
+
+The original package on `npm` contains a lot of additional Python wheels we do not have a use for and, hence, want to prevent from being accessed at runtime. So in this repository, we have removed all of these unnecessary wheels. We also have included two additional packages (`plotly` and `tenacity`) that are not included in the original `pyodide` distribution.
 
 These are the Python Packages included, with notes regarding why they are included.
 
