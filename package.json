@@ -1,6 +1,6 @@
 {
   "name": "pyodide-js",
-  "version": "0.21.2",
+  "version": "0.22.1",
   "description": "The Pyodide JavaScript package for use in Seeq",
   "keywords": [
     "python",
