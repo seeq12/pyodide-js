@@ -8,11 +8,10 @@
   "packages": {
     "bokeh": {
       "name": "bokeh",
-      "version": "3.0.3",
-      "file_name": "bokeh-3.0.3-py3-none-any.whl",
+      "version": "2.4.3",
+      "file_name": "bokeh-2.4.3-py3-none-any.whl",
       "install_dir": "site",
-      "sha256": "258fed4e99b5ff6e6f71adc167d78688c98ee7f242cce1cf0e1bb5c0e9bb090c",
-      "imports": ["bokeh"],
+      "sha256": "571bd812c7f7e1ab339f43a5f8cee0a04ff2150dcf3b5bf8f7ee7be2b867decf",
       "depends": [
         "distutils",
         "numpy",
@@ -21,10 +20,9 @@
         "python-dateutil",
         "six",
         "typing-extensions",
-        "pyyaml",
-        "pandas",
-        "xyzservices"
-      ]
+        "pyyaml"
+      ],
+      "imports": ["bokeh"]
     },
     "clapack": {
       "name": "CLAPACK",
